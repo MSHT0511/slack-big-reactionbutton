@@ -1,8 +1,19 @@
 .c-reaction_bar {
-    zoom:2.3;
+    padding-top: 7px;
+}
+.c-reaction, .c-reaction_add, .c-reaction--reacted{
+    transform: scale(2.4) !important;
+}
+.c-reaction:active, .c-reaction_add:active, .c-reaction--reacted:active{
+    transform: scale(2.0) !important;
 }
 .c-reaction, .c-reaction_add {
     box-shadow: -2px -1px 2px grey;
+    margin-top: 10px !important;
+    margin-right: 56px !important;
+    margin-bottom: 30px !important;
+    /* margin-bottom: 19px !important;
+    margin-right: 57px !important; */
 }
 
 .c-reaction--reacted{
