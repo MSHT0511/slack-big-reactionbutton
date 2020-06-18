@@ -1,9 +1,8 @@
 {
   "manifest_version": 2,
   "name": "slackplugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Slackのリアクションボタンをめっちゃでかくするプラグインです。",
-  "icons":{"48":"icon/def.png"},
   "content_scripts": [{
     "matches": ["https://app.slack.com/client/*"],
     "css": ["css/override.css"]
